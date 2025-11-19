@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@theme {
+  --font-museomoderno: MuseoModerno, sans-serif;
+  --font-mulish: Mulish, sans-serif;
+  --font-ttnorms: TTNorms, sans-serif;
+
+  --color-primary-100: #00526C;
+  --color-primary-80: #337589;
+  --color-primary-50: #80A9B6;
+  --color-primary-20: #CCDCE2;
+  --color-primary-10: #E5EDF0;
+  --color-primary-05: #F2F6F8;
+
+  --color-grayscale-100: #202532;
+  --color-grayscale-80: #50545E;
+  --color-grayscale-60: #838791;
+  --color-grayscale-40: #BEC0C5;
+  --color-grayscale-10: #D9DADD;
+  --color-grayscale-05: #EAEAEB;
+
+  --height-21: 5.125rem;
+  --height-113: 28.25rem;
+}
+
+/* * {
+	border-color: black;
+	border-width: 2px;
+}
+
+html, body, template {
+	min-height: 100%;
+} */
+
+/* additional fonts */
+@font-face {
+	font-family: 'Mulish';
+	src: url('/assets/fonts/Mulish-Regular.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Mulish';
+	src: url('/assets/fonts/Mulish-Bold.ttf');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'MuseoModerno';
+	src: url('/assets/fonts/MuseoModerno-Regular.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'TTNorms';
+	src: url('/assets/fonts/TT-Norms-Regular.otf') format('opentype');
+	style: normal;
+	weight: 400;
+	stretch: 100;
+}

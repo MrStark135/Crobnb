@@ -1,0 +1,30 @@
+{
+	"folders": 
+	[
+		{
+			"path": "./"
+		}
+	],
+	"settings": 
+	{
+		"files.exclude":
+		{
+			// "uploads": true,
+			// "extensions": true,
+			// "data": true,
+			// "docker-compose.yml": true
+			// "*.code-workspace": true
+		},
+		"tailwindCSS.experimental.configFile": "./app/assets/global.css",
+		// "tailwindCSS.includeLanguages": {
+		// 	"vue": "html",
+		// 	"vue-html": "html"
+		// },
+		// "editor.quickSuggestions": {
+		// 	"strings": true
+		// },
+		// "files.associations": {
+		// 	"*.vue": "vue"
+		// }
+	}
+}

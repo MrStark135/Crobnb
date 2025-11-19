@@ -1,0 +1,35 @@
+/* * {
+	border-color: black;
+	border-width: 2px;
+}
+
+html, body, template {
+	min-height: 100%;
+} */
+
+
+/* additional fonts */
+@font-face {
+	font-family: 'Mulish';
+	src: url('/assets/fonts/Mulish-Regular.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Mulish';
+	src: url('/assets/fonts/Mulish-Bold.ttf');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'MuseoModerno';
+	src: url('/assets/fonts/MuseoModerno-Regular.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'TTNorms';
+	src: url('/assets/fonts/TT-Norms-Regular.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
