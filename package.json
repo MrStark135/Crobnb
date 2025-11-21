@@ -3,9 +3,10 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "nuxt build",
+    "build": "nuxt build --standalone",
     "dev": "nuxt dev --host",
-    "generate": "nuxt generate",
+    "start": "nuxt start --host",
+    "generate": "nuxt generate --standalone",
     "preview": "nuxt preview --host",
     "postinstall": "nuxt prepare"
   },
