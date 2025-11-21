@@ -10,9 +10,9 @@ export default defineNuxtConfig({
   //     '/': { redirect: '/index' }
   //   }
   // },
-  app: {
-    baseURL: "/Crobnb/"
-  },
+  // app: {
+  //   baseURL: process.env.NUXT_PUBLIC_BASE_URL
+  // },
   devServer: {
     cors: {
       origin: '*'
