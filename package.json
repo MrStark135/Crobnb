@@ -6,7 +6,7 @@
     "build": "nuxt build --standalone",
     "dev": "nuxt dev --host",
     "start": "nuxt start --host",
-    "generate": "nuxt generate --standalone",
+    "generate": "nuxt generate",
     "preview": "nuxt preview --host",
     "postinstall": "nuxt prepare"
   },
